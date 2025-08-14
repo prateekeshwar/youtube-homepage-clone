@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YouTube Homepage Clone">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn" aria-label="Menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <div class="logo">
+                <span class="logo-icon">▶</span>
+                <span class="logo-text">YouTube</span>
+            </div>
+        </div>
+        
+        <div class="header-center">
+            <form class="search-form" role="search">
+                <div class="search-container">
+                    <input type="search" class="search-input" placeholder="Search" aria-label="Search">
+                    <button type="submit" class="search-btn" aria-label="Search">
+                        <span class="search-icon">🔍</span>
+                    </button>
+                </div>
+                <button type="button" class="voice-search-btn" aria-label="Search with your voice">
+                    <span class="mic-icon">🎤</span>
+                </button>
+            </form>
+        </div>
+        
+        <div class="header-right">
+            <button class="create-btn" aria-label="Create">+</button>
+            <button class="notifications-btn" aria-label="Notifications">🔔</button>
+            <button class="sign-in-btn">Sign in</button>
+        </div>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <ul class="nav-list">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon">⚡</span>
+                        <span class="nav-text">Shorts</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon">📺</span>
+                        <span class="nav-text">Subscriptions</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <hr class="nav-divider">
+            
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon">👤</span>
+                        <span class="nav-text">You</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon">🕒</span>
+                        <span class="nav-text">History</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-message">
+            <h1>Try searching to get started</h1>
+            <p>Start watching videos to help us build a feed of videos you'll love.</p>
+        </div>
+        
+        <!-- Video Grid (Hidden initially, shown when there are videos) -->
+        <div class="video-grid" style="display: none;">
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div class="thumbnail-placeholder">Video Thumbnail</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Sample Video Title</h3>
+                    <p class="video-channel">Channel Name</p>
+                    <p class="video-meta">1M views • 2 days ago</p>
+                </div>
+            </div>
+            <!-- More video cards would go here -->
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
