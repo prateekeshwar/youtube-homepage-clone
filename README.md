@@ -11,9 +11,8 @@ The YouTube Homepage Clone is a simplistic web application that mimics the layou
 ## Start Server
 To get started with the YouTube Homepage Clone, simply clone or download the repository. There’s no need for a complex setup or server, as this application runs entirely in the browser.
 
-1. python3 -m http.server 8000
+python3 -m http.server 8000
 
-3. Open `index.html` in your preferred web browser.
 
 ## Usage
 Open `index.html` in your web browser to view the cloned YouTube homepage. Experiment with the search bar and navigation buttons. Although the video grid doesn't display real videos, you can see the structure and styling that resembles the actual YouTube interface.
