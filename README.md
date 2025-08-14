@@ -8,18 +8,10 @@ Built by https://www.blackbox.ai
 ## Project Overview
 The YouTube Homepage Clone is a simplistic web application that mimics the layout of the YouTube homepage. This project showcases various features typically found on YouTube, including a search bar, video thumbnails, and a sidebar navigation. The application serves as a great exercise in front-end development, providing an opportunity to practice HTML, CSS, and JavaScript.
 
-## Installation
+## Start Server
 To get started with the YouTube Homepage Clone, simply clone or download the repository. There’s no need for a complex setup or server, as this application runs entirely in the browser.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/youtube-homepage-clone.git
-   ```
-
-2. Navigate into the project directory:
-   ```bash
-   cd youtube-homepage-clone
-   ```
+1. python3 -m http.server 8000
 
 3. Open `index.html` in your preferred web browser.
 
